@@ -307,6 +307,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/john.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35159,
+		"inputAbbreviatedPath": "\/img\/john.jpg",
+		"outputAbbreviatedPath": "\/img\/john.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/kickstarter-logo-k-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -369,6 +380,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/prototype.jpg",
 		"outputAbbreviatedPath": "\/img\/prototype.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sarah.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63279,
+		"inputAbbreviatedPath": "\/img\/sarah.jpg",
+		"outputAbbreviatedPath": "\/img\/sarah.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

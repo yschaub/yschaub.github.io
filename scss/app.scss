@@ -9,6 +9,7 @@
 	border-radius: 50%;
 	margin-bottom: $small-spacing;
 	width: 50%;
+	border: 5px solid white;
 
 }
 
@@ -43,7 +44,8 @@
 	border: 1px solid $kickgreen;
 	text-align:center;
 	margin-top: modular-scale(7);
-	padding-bottom: $small-spacing;
+	padding: $small-spacing;
+
 
 	@include media($medium-screen-up) {
 		margin-top: modular-scale(5);
@@ -64,10 +66,27 @@
 	border-radius: 50%;
 	width: 170px;
 	height: 170px;
-	margin-top: -90px;
+	margin-top: -105px;
 	border: 5px solid $kickgreen;
 
+
+
 	}
+}
+
+
+
+.quotebox-negative {
+	 @extend .quotebox;
+	 background-color: $kickgreen;
+	 color: white;
+
+	 .authorimg {
+	 	border-color: white;
+	 	margin-bottom: $small-spacing;
+	 }
+
+
 }
 
 footer {
