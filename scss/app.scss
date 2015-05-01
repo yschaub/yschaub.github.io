@@ -1,0 +1,74 @@
+@import "bourbon", "neat";
+@import "../bower_components/bitters/app/assets/stylesheets/base";
+@import "../bower_components/bitters/app/assets/stylesheets/grid-settings";
+
+//
+
+
+.persona-img {
+	border-radius: 50%;
+	margin-bottom: $small-spacing;
+	width: 50%;
+
+}
+
+
+/* styles for the intro-section of a case-study */
+
+.intro {
+	margin-top: $base-spacing;
+	margin-bottom: $base-spacing*2;
+}
+
+.client-logo {
+	width: 50%;
+	margin-bottom: $base-spacing;
+}
+
+
+/* color-sections */
+
+.green-bg {
+	background-color: $kickgreen;
+	color: #ffffff;
+	@include pad($base-spacing $small-spacing);
+
+}
+
+/* custom blockquote */
+
+.quotebox {
+
+	width: 100%;
+	border: 1px solid $kickgreen;
+	text-align:center;
+	margin-top: modular-scale(7);
+	padding-bottom: $small-spacing;
+
+	@include media($medium-screen-up) {
+		margin-top: modular-scale(5);
+	}
+
+	cite {
+		font-size: modular-scale(-1);
+	}
+
+
+	blockquote {
+		border-bottom: 1px solid $light-gray;
+		padding-bottom: $small-spacing;
+		margin-bottom: $small-spacing;
+	}
+
+	.authorimg {
+	border-radius: 50%;
+	width: 170px;
+	height: 170px;
+	margin-top: -90px;
+	border: 5px solid $kickgreen;
+
+	}
+}
+
+
+
