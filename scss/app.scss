@@ -70,5 +70,16 @@
 	}
 }
 
+footer {
+
+	color: $medium-gray;
+	margin-top: $base-spacing;
+	font-weight: 800;
+
+	.content {
+		border-top: 3px solid $light-gray;
+		padding: $base-spacing;
+	}
+}
 
 

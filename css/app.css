@@ -381,3 +381,11 @@ blockquote {
     height: 170px;
     margin-top: -90px;
     border: 5px solid #2BDE73; }
+
+footer {
+  color: #999;
+  margin-top: 1.8em;
+  font-weight: 800; }
+  footer .content {
+    border-top: 3px solid #ddd;
+    padding: 1.8em; }
